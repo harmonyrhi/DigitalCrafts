@@ -74,7 +74,7 @@ print('string')
 Integers 4 and floats 4.5
 
 23) Are we able to add two strings together? How?
-
+Yes, with +
 
 24) What commands would you use to create the following file structure? (write every command line by line):
     
