@@ -161,7 +161,7 @@ dictionary.pop('key')
 dictionary[name]='not Harmony'
 
 43) What is a pull request? Describe it in detail.
-
+A request to get a certain file that was edited on Git that is not pushed by the collaborator 
 
 44) Why do we use services like Github?
 
