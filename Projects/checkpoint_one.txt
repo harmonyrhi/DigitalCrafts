@@ -105,7 +105,8 @@ Desktop/projects/instagram/images/profile_image.jpg
 Cd ../../instagram/images
 
 27) What method can I use to change this string from "troy" to "Troy"? 
-
+name="troy"
+print(name.capitalize())
 
 28) What method can I use to change this string from "TROY" to "troy"?
 
