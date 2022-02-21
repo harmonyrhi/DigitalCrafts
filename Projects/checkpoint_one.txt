@@ -179,6 +179,7 @@ Those different changes will have to be merged or else they will create a confli
 Making changes, saving them, and then uploading them to the repository
 
 49) What are the commands we'd use, in order, to move our changes through these stages?
+Log, status, and commit
 
 
 50) Is spacing in my Python code important? Why?
