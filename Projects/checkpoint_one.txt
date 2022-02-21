@@ -152,7 +152,7 @@ List.append("extra element')
 list.remove("extra element")
 
 40) How can I access a value in a Python dictionary?
-
+dictionary.append('key')
 
 41) How can I remove a value from a Python dictionary?
 
