@@ -1,71 +1,80 @@
 1) What are comments?
 Comments are pieces of information put in the code that is not code but exists for the programmer to know what the code is and does. 
 
-2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
-
+Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
+# This is a comment
+:'This is a comment'
 
 3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
-
+Cd Documents/app.py
 
 4) Demonstrate how I can tell a Python program to display something in the command line.
-
+Echo "something"
 
 5) What can we use to save a value for later use in our code? Provide an example.
-
+A variable; $VALUE='Value'
 
 6) What can I do to prevent certain files and directories from being tracked by git?
-
+Git rm --cached Documents/hiddenfile.txt
 
 7) What can be used in order to repeat some block of code? Provide 2 examples.
-
+Up arrow
+History
 
 8) When saving a value for later use what type of operator do we use?
-
+$
 
 9) What's the key difference between git revert and git reset?
-
+Revert leaves evidence of a change and only changes what was reverted. Reset moves git back to the moment where a certain commit was made, deleting evidence of a change and any changes after.
 
 10) What's the key difference between Python lists and tuples?
-
+Lists are mutable
 
 11) What can I do to know where I am within my file system?
-
+Pwd
 
 12) Describe the anatomy of a Python dictionary and create one below.
-
+A dictionary is a list of variables in one, which consists of keys and values. The values may be repeated but the keys they correspond to may not. 
+dictionary={
+	"name":"Harmony",
+	"age":"26",
+	"birthday":"Feb 17"
+}
 
 13) What type of values can be in a Python dictionary?
-
+Any data type, they are ordered and can be changed 
 
 14) What type of values can be in a Python list?
-
+Any data type, they are ordered and can be changed
 
 15) What data type are True and False?
-
+Boolean
 
 16) What language does your computer understand?
-
+Binary
 
 17) What do we need in order for your computer to make use of programming languages?
-
+Compilers
 
 18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
-
+1
 
 19) What does frontend / client side mean?
-
+What part of a program that the user interacts with
 
 20) What does backend / server side mean?
-
+The part of a program a user does not interact with
 
 21) What are 3 way to create a Python string?
-
+str('string')
+s='string'
+print('string')
 
 22) What are 2 types of number data types in Python? Provide an example.
-
+Integers 4 and floats 4.5
 
 23) Are we able to add two strings together? How?
-
+Yes, with +
 
 24) What commands would you use to create the following file structure? (write every command line by line):
     
@@ -78,81 +87,99 @@ Comments are pieces of information put in the code that is not code but exists f
         -> tiktok
             -> clips
             -> app.py
+Cd desktop
+Mkdir projects tiktok 
+Cd projects
+Mkdir instagram instagram/images
+Cd instagram
+Touch app.py images/profile_image.jpg
+Cd ../tiktok
+Mkdir clips
+Touch app.py
 
 
 25) What is the path to profile_image.jpg?
-
+Desktop/projects/instagram/images/profile_image.jpg
 
 26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
-
+Cd ../../instagram/images
 
 27) What method can I use to change this string from "troy" to "Troy"? 
-
+name="troy"
+print(name.capitalize())
 
 28) What method can I use to change this string from "TROY" to "troy"?
-
+print(name.Upper())
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
-
+Val.is_integer()
 
 30) How can I split a string into a list with each value in the list being a line of the string?
-
+split()
 
 31) What are the Python comparison operators? List each and describe.
-
+== equals
+!= not equal
+> less than 
+>= less than or equal to 
+< greater than
+<= greater than or equal to
 
 32) What are the Python logical operators? List each and describe.
-
+AND both elements are 
+OR one element is
+NOT one or more element is not
 
 33) How can we decide to run one piece of code versus another? Provide an example.
-
+Conditionals
 
 34) What can I do to work on my primary code, but not mess it up? Provide an example.
-
+Use Git or GitHub, and open the code on a separate branch
 
 35) What do I do in order to make sure I have the latest code on my machine?
-
+python --version
 
 36) How can I accept user input into my Python code?
-
+Input()
 
 37) How can I see all of my git commits?
-
+Git log
 
 38) How can I add a value to a Python list?
-
+List.append("extra element')
 
 39) How can I remove a value from a Python list?
-
+list.remove("extra element")
 
 40) How can I access a value in a Python dictionary?
-
+dictionary.append('key')
 
 41) How can I remove a value from a Python dictionary?
-
+dictionary.pop('key')
 
 42) How can I change a value in a Python dictionary?
-
+dictionary[name]='not Harmony'
 
 43) What is a pull request? Describe it in detail.
-
+A request to get a certain file that was edited on Git that is not pushed by the collaborator 
 
 44) Why do we use services like Github?
-
+To connect with other developers and work on projects together
 
 45) How can I create a git branch?
-
+Git checkout 
 
 46) How can I switch to another branch?
-
+Git branch
 
 47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
-
+Those different changes will have to be merged or else they will create a conflict in Git 
 
 48) What are the 3 stages of of tracking our work with git?
-
+Making changes, saving them, and then uploading them to the repository
 
 49) What are the commands we'd use, in order, to move our changes through these stages?
-
+Log, status, and commit
 
 50) Is spacing in my Python code important? Why?
+Yes, it tells python how and when to interpret information
