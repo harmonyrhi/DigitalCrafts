@@ -71,7 +71,7 @@ s='string'
 print('string')
 
 22) What are 2 types of number data types in Python? Provide an example.
-
+Integers 4 and floats 4.5
 
 23) Are we able to add two strings together? How?
 
