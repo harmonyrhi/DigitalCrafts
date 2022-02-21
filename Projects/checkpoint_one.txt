@@ -155,7 +155,7 @@ list.remove("extra element")
 dictionary.append('key')
 
 41) How can I remove a value from a Python dictionary?
-
+dictionary.pop('key')
 
 42) How can I change a value in a Python dictionary?
 
