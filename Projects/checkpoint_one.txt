@@ -66,7 +66,9 @@ What part of a program that the user interacts with
 The part of a program a user does not interact with
 
 21) What are 3 way to create a Python string?
-
+str('string')
+s='string'
+print('string')
 
 22) What are 2 types of number data types in Python? Provide an example.
 
