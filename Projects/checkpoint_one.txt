@@ -115,7 +115,7 @@ print(name.Upper())
 Val.is_integer()
 
 30) How can I split a string into a list with each value in the list being a line of the string?
-
+split()
 
 31) What are the Python comparison operators? List each and describe.
 
