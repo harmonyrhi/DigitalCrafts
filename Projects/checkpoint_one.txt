@@ -12,7 +12,7 @@ Cd Documents/app.py
 Echo "something"
 
 5) What can we use to save a value for later use in our code? Provide an example.
-
+A variable; $VALUE='Value'
 
 6) What can I do to prevent certain files and directories from being tracked by git?
 
