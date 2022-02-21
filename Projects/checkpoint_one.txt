@@ -63,7 +63,7 @@ Compilers
 What part of a program that the user interacts with
 
 20) What does backend / server side mean?
-
+The part of a program a user does not interact with
 
 21) What are 3 way to create a Python string?
 
