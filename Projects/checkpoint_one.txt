@@ -158,7 +158,7 @@ dictionary.append('key')
 dictionary.pop('key')
 
 42) How can I change a value in a Python dictionary?
-
+dictionary[name]='not Harmony'
 
 43) What is a pull request? Describe it in detail.
 
