@@ -140,7 +140,7 @@ Use Git or GitHub, and open the code on a separate branch
 python --version
 
 36) How can I accept user input into my Python code?
-
+Input()
 
 37) How can I see all of my git commits?
 
