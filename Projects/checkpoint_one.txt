@@ -149,7 +149,7 @@ Git log
 List.append("extra element')
 
 39) How can I remove a value from a Python list?
-
+list.remove("extra element")
 
 40) How can I access a value in a Python dictionary?
 
