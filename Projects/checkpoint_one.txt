@@ -87,6 +87,15 @@ Yes, with +
         -> tiktok
             -> clips
             -> app.py
+Cd desktop
+Mkdir projects tiktok 
+Cd projects
+Mkdir instagram instagram/images
+Cd instagram
+Touch app.py images/profile_image.jpg
+Cd ../tiktok
+Mkdir clips
+Touch app.py
 
 
 25) What is the path to profile_image.jpg?
