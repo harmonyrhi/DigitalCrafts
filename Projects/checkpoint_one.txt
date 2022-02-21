@@ -15,7 +15,7 @@ Echo "something"
 A variable; $VALUE='Value'
 
 6) What can I do to prevent certain files and directories from being tracked by git?
-
+Git rm --cached Documents/hiddenfile.txt
 
 7) What can be used in order to repeat some block of code? Provide 2 examples.
 
