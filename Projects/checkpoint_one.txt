@@ -137,7 +137,7 @@ Pull requests and merges
 Use Git or GitHub, and open the code on a separate branch
 
 35) What do I do in order to make sure I have the latest code on my machine?
-
+python --version
 
 36) How can I accept user input into my Python code?
 
