@@ -164,7 +164,7 @@ dictionary[name]='not Harmony'
 A request to get a certain file that was edited on Git that is not pushed by the collaborator 
 
 44) Why do we use services like Github?
-
+To connect with other developers and work on projects together
 
 45) How can I create a git branch?
 
