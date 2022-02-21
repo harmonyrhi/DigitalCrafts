@@ -51,7 +51,7 @@ Any data type, they are ordered and can be changed
 Boolean
 
 16) What language does your computer understand?
-
+Binary
 
 17) What do we need in order for your computer to make use of programming languages?
 
