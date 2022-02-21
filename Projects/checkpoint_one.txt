@@ -126,7 +126,9 @@ split()
 <= greater than or equal to
 
 32) What are the Python logical operators? List each and describe.
-
+AND both elements are 
+OR one element is
+NOT one or more element is not
 
 33) How can we decide to run one piece of code versus another? Provide an example.
 
