@@ -1,5 +1,5 @@
 1) What are comments?
-
+Comments are pieces of information put in the code that is not code but exists for the programmer to know what the code is and does. 
 
 2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
 
