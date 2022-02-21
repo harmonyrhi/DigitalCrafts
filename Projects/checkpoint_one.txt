@@ -60,7 +60,7 @@ Compilers
 1
 
 19) What does frontend / client side mean?
-
+What part of a program that the user interacts with
 
 20) What does backend / server side mean?
 
