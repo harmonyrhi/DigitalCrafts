@@ -26,7 +26,7 @@ $
 
 9) What's the key difference between git revert and git reset?
 Revert leaves evidence of a change and only changes what was reverted. Reset moves git back to the moment where a certain commit was made, deleting evidence of a change and any changes after.
-
+Pwd
 
 10) What's the key difference between Python lists and tuples?
 Lists are mutable
