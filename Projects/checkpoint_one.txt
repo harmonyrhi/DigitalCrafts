@@ -109,7 +109,7 @@ name="troy"
 print(name.capitalize())
 
 28) What method can I use to change this string from "TROY" to "troy"?
-
+print(name.Upper())
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
 
