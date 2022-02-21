@@ -45,7 +45,7 @@ dictionary={
 Any data type, they are ordered and can be changed 
 
 14) What type of values can be in a Python list?
-
+Any data type, they are ordered and can be changed
 
 15) What data type are True and False?
 
