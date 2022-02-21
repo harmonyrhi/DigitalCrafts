@@ -131,7 +131,7 @@ OR one element is
 NOT one or more element is not
 
 33) How can we decide to run one piece of code versus another? Provide an example.
-Pull requests and merges
+Conditionals
 
 34) What can I do to work on my primary code, but not mess it up? Provide an example.
 Use Git or GitHub, and open the code on a separate branch
@@ -181,5 +181,5 @@ Making changes, saving them, and then uploading them to the repository
 49) What are the commands we'd use, in order, to move our changes through these stages?
 Log, status, and commit
 
-
 50) Is spacing in my Python code important? Why?
+Yes, it tells python how and when to interpret information
