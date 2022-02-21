@@ -18,7 +18,8 @@ A variable; $VALUE='Value'
 Git rm --cached Documents/hiddenfile.txt
 
 7) What can be used in order to repeat some block of code? Provide 2 examples.
-
+Up arrow
+History
 
 8) When saving a value for later use what type of operator do we use?
 
