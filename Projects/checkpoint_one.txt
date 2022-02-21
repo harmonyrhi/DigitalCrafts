@@ -29,7 +29,7 @@ Revert leaves evidence of a change and only changes what was reverted. Reset mov
 
 
 10) What's the key difference between Python lists and tuples?
-
+Lists are mutable
 
 11) What can I do to know where I am within my file system?
 
