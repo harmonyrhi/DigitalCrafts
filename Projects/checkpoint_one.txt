@@ -48,7 +48,7 @@ Any data type, they are ordered and can be changed
 Any data type, they are ordered and can be changed
 
 15) What data type are True and False?
-
+Boolean
 
 16) What language does your computer understand?
 
