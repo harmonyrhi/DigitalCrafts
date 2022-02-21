@@ -170,7 +170,7 @@ To connect with other developers and work on projects together
 Git checkout 
 
 46) How can I switch to another branch?
-
+Git branch
 
 47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
 
