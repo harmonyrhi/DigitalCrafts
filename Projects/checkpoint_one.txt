@@ -112,7 +112,7 @@ print(name.capitalize())
 print(name.Upper())
 
 29) How can I check to see if all of the characters in a string are numbers/digits?
-
+Val.is_integer()
 
 30) How can I split a string into a list with each value in the list being a line of the string?
 
