@@ -176,7 +176,7 @@ Git branch
 Those different changes will have to be merged or else they will create a conflict in Git 
 
 48) What are the 3 stages of of tracking our work with git?
-
+Making changes, saving them, and then uploading them to the repository
 
 49) What are the commands we'd use, in order, to move our changes through these stages?
 
