@@ -26,16 +26,20 @@ $
 
 9) What's the key difference between git revert and git reset?
 Revert leaves evidence of a change and only changes what was reverted. Reset moves git back to the moment where a certain commit was made, deleting evidence of a change and any changes after.
-Pwd
 
 10) What's the key difference between Python lists and tuples?
 Lists are mutable
 
 11) What can I do to know where I am within my file system?
-
+Pwd
 
 12) Describe the anatomy of a Python dictionary and create one below.
-
+A dictionary is a list of variables in one, which consists of keys and values. The values may be repeated but the keys they correspond to may not. 
+dictionary={
+	"name":"Harmony",
+	"age":"26",
+	"birthday":"Feb 17"
+}
 
 13) What type of values can be in a Python dictionary?
 
