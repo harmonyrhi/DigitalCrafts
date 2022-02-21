@@ -99,7 +99,7 @@ Touch app.py
 
 
 25) What is the path to profile_image.jpg?
-
+Desktop/projects/instagram/images/profile_image.jpg
 
 26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
 
