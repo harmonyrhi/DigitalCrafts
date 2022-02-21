@@ -167,7 +167,7 @@ A request to get a certain file that was edited on Git that is not pushed by the
 To connect with other developers and work on projects together
 
 45) How can I create a git branch?
-
+Git checkout 
 
 46) How can I switch to another branch?
 
