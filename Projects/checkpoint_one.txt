@@ -146,7 +146,7 @@ Input()
 Git log
 
 38) How can I add a value to a Python list?
-
+List.append("extra element')
 
 39) How can I remove a value from a Python list?
 
