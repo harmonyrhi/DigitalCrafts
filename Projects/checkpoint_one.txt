@@ -57,7 +57,7 @@ Binary
 Compilers
 
 18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
-
+1
 
 19) What does frontend / client side mean?
 
