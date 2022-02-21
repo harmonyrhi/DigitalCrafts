@@ -173,7 +173,7 @@ Git checkout
 Git branch
 
 47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
-
+Those different changes will have to be merged or else they will create a conflict in Git 
 
 48) What are the 3 stages of of tracking our work with git?
 
