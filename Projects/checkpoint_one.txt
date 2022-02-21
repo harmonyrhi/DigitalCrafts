@@ -9,7 +9,7 @@ Demonstrate at least 2 ways to create a comment. One should be for multiple line
 Cd Documents/app.py
 
 4) Demonstrate how I can tell a Python program to display something in the command line.
-
+Echo "something"
 
 5) What can we use to save a value for later use in our code? Provide an example.
 
