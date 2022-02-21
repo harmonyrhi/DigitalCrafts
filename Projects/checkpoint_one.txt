@@ -134,7 +134,7 @@ NOT one or more element is not
 Pull requests and merges
 
 34) What can I do to work on my primary code, but not mess it up? Provide an example.
-
+Use Git or GitHub, and open the code on a separate branch
 
 35) What do I do in order to make sure I have the latest code on my machine?
 
