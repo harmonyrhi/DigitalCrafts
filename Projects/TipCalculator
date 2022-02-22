@@ -1,0 +1,29 @@
+from tracemalloc import stop
+
+
+tip=0
+
+price=float(input("How much was your bill today? "))
+table_amount=float(input("How many people are at your table today? "))
+reward=input('How good would you like your tip to be? (please enter either "good" "fair" or "bad.") ')
+reward=reward.lower()
+#takes all user information and converts into usuable data
+
+if reward=="good":
+    tip=price*.2
+elif reward=="fair":
+    tip=price*.15
+elif reward=="bad":
+    tip=price*.1
+else:
+    print("Invalid Entry")
+#calculates tip
+
+total=tip+price
+individual_total=total/table_amount
+#calculates tip for whole table and for indivuals 
+
+if tip!=0:
+    print("Your calculated tip amount is $"+str("%.2f"%tip))
+    print("Combined with your bill creates a total of $"+ str("%.2f"%total))
+    print("Which leaves a bill of $"+str("%.2f"%individual_total)+" for each individual within your party")
