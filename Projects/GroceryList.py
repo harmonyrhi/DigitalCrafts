@@ -44,7 +44,7 @@ def create(grocery_store):
     for x in grocery_store: 
         print(x)  
     while True:
-        grocery_choice=input("please enter an item you would like to add: ").lower()
+        grocery_choice=input("\nplease enter an item you would like to add: ").lower()
         if grocery_choice in grocery_store:
             while True:
                 groc_quan=input("how many? ")
@@ -114,10 +114,6 @@ def edit():
 
 print("welcome to grocery list creator")
 
-for x in your_prices:
-    loc=your_prices.index(x)
-    your_tot+=x*int(your_quantities[loc])
-#creates a grand total
 
 def list_delete():
     store_choice=input("which store would you like to delete the list of? ")
@@ -151,9 +147,13 @@ while True:
             print("sorry, that store was not on the list")
     elif request=="2":
         list_choose()
+        for x in your_prices:
+            loc=your_prices.index(x)
+            your_tot+=x*int(your_quantities[loc])
+        #creates a grand total
         print("\ngreat! here is your list:")
-        print(your_quantities)
-        print(your_dict[store_choice])
+        zippped_list=zip(your_quantities, your_dict[store_choice])
+        print(list(zippped_list))
         print("and this is your prospective grand total:")
         print(your_tot)
     elif request=="3":
@@ -162,11 +162,11 @@ while True:
         list_delete()
     elif request=="done":
         print("\n")
+        print("thank you for using harmony's grocery creator!")
         break
     else:
         print("This is not a valid response")
 #iterates through the main menu options until the user decides to leave the program
 
-print("thank you for using harmony's grocery creator!")
 
 
