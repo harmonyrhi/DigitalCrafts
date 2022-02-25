@@ -109,6 +109,8 @@ def edit():
                 continue
     else:
         print("sorry, you have not created a list for that store")
+#asks user how they want to edit, makes sure that the list and the item exists and edits accordingly 
+###to troy- this is the part that isn't working correctly. it works in visualizer but not irl###
 
 print("welcome to grocery list creator")
 
