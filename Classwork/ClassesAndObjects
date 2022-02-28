@@ -1,0 +1,128 @@
+from nis import cat
+
+
+class Kittens:
+    animal="cat"
+    def __init__(self, name, age, breed, location, happiness):
+        self.name=name
+        self.age=age
+        self.breed=breed
+        self.location=location
+        self.happiness=happiness
+    def __str__(self):
+        return self.name+ " information:\nage: " +self.age+ "\nbreed: "+self.breed+"\nlocation: "+self.location+"\nhappiness: "+str(self.happiness)
+    def is_alive(self):
+        self.happiness-=1
+    def cuddle_time(self):
+        self.happiness+=5
+
+class SadCat(Kittens):
+    def is_alive(self):
+        self.happiness-=2
+
+cat1=Kittens("Luz", "3 months", "ragdoll", "symrna", 50)
+cat2=SadCat("porcupiune", "10 weeks", "siamese", "savannah", 70)
+cat3=Kittens("sherlock", "1 week", "bengal", "augusta", 30)
+
+cat1.is_alive()
+print(cat1)
+print()
+cat1.cuddle_time()
+print(cat1)
+print("\n")
+print(cat2)
+print()
+cat2.is_alive()
+print(cat2)
+
+class Puppy:
+    def __init__(self, strength=1):
+        self.happiness = 10
+        self.strength = strength
+        
+    def bite(self, squeak_toy, strength):
+        if squeak_toy.did_squeak(strength):
+            print("Yay!")
+            self.happiness += squeak_toy.fun
+
+class SqueakToy(Puppy):
+    def __init__(self, toughness=3):
+        self.toughness = toughness
+        
+    def did_squeak(self, strength):
+        return strength >= self.toughness
+
+
+pup = Puppy()
+toy = SqueakToy()
+pup.bite(toy)
+
+# class Dog:
+#     def __init__(self):
+#         self.mood = "Sad"
+#     def get_mood(self):
+#         return self.mood
+#     def set_mood(self, data):
+#         self.mood = data
+
+# dog1 = Dog()
+# print(dog1.get_mood())
+# dog1.set_mood("Happy")
+# print(dog1.get_mood()) 
+
+# class MyClass:
+#     def __init__(self):
+#       print("Upon Initialization: Hello!")
+#     def instance_method(self): 
+#       print("hello instance")
+#     def class_method():
+#       print("Hello class method!")
+# test = MyClass()
+# test.instance_method()
+# MyClass.class_method()
+
+# import datetime # we will use this for date objects
+# class Person:
+#     def __init__(self, name, surname, birthdate, address, telephone, email):
+#         self.name = name
+#         self.surname = surname
+#         self.birthdate = birthdate
+#         self.address = address
+#         self.telephone = telephone
+#         self.email = email
+#     def age(self):
+#         today = datetime.date.today()
+#         age = today.year - self.birthdate.year
+#         if today < datetime.date(today.year, self.birthdate.month, 
+#         self.birthdate.day):
+#             age -= 1
+#         return age
+
+# person = Person(
+#     "Jane",
+#     "Doe",
+#     datetime.date(1992, 3, 12), # year, month, day
+#     "No. 12 Short Street, Greenville",
+#     "555 456 0987",
+#     "jane.doe@example.com"
+# )
+# print(person.name)
+# print(person.email)
+# print(person.age())
+
+# class Person:
+#   GlobalPerson = "Zelda"
+#   def __init__ (self, name):
+#     self.name = name
+#   def greet (self, friend):
+#     print("Hello {} and {} and {}".format(self.name, friend, self.GlobalPerson))
+# me = Person('Paul')
+# me.greet('Pepper')
+# matt = Person('Matt')
+# matt.greet('Eric')
+# travis = Person('Travis')
+# travis.greet('Hussein')
+# Person.GlobalPerson = "Skyler"
+# me.greet('Pepper')
+# matt.greet('Eric')
+# travis.greet('Hussein')
