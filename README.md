@@ -1,1 +1,1 @@
-Please excuse this repository, it is my first
+This contains all of the smaller projects and algorithms that I worked on during my matriculation in DigitalCrafts. 
